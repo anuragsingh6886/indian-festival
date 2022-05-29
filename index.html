@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Festival</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 35px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Festivals of India</h1>
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://images.unsplash.com/photo-1577083753695-e010191bacb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"></div>
+              <div class="card_content">
+                <h2 class="card_title">1: Dipawali - "दीपावली" </h2>
+                <p class="card_text">Diwali, celebrated pan India, the festival of lights has several significances for diverse cultures in the country. However, everybody comes together to light up diyas and celebrate the festival of lights in unison.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://images.unsplash.com/photo-1551757891-24a8dabd2708?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"></div>
+              <div class="card_content">
+                <h2 class="card_title">2: Holi - "होली"</h2>
+                <p class="card_text">Holi is a popular ancient Hindu festival, also known as the Festival of Spring. The festival celebrates the eternal and divine love of Radha Krishna. It also signifies the triumph of good over evil.Holi celebrates all over the world.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Rakhi_1.JPG/1024px-Rakhi_1.JPG"></div>
+              <div class="card_content">
+                <h2 class="card_title">3: Raksha Bandhan - "रक्षाबन्धन"</h2>
+                <p class="card_text">Raksha Bandhan, is a popular, traditionally Hindu, annual rite, or ceremony by Hindu culture. On this day, sisters of all ages tie a talisman, or amulet, called the Rakhi, around the wrists of their brothers, symbolically protecting them.</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://images.unsplash.com/photo-1600238323600-ef697b27304d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></div>
+              <div class="card_content">
+                <h2 class="card_title">4: Ganesh Chaturthi - "गणेश चतुर्थी"</h2>
+                <p class="card_text">Ganesh Chaturthi, also known as Vinayaka Chaturthi is a Hindu festival celebrating the arrival of Lord Ganesh to earth from Kailash Parvat with his mother Goddess Parvati/Gauri.Offerings and prasāda from the daily prayers, that are distributed from the pandal to the community.</p>
+                
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://images.unsplash.com/photo-1603646315107-acbf16a28c6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"></div>
+              <div class="card_content">
+                <h2 class="card_title">5: Navaratri - "नवरात्रि"</h2>
+                <p class="card_text">Navaratri is a biannual Hindu festival that spans over nine nights, first in the month of Chaitra and again in the month of Sharada. It is observed for different reasons and celebrated differently in various parts of the Hindu Indian cultural sphere. Theoretically, there are four seasonal Navaratri.</p>
+                
+              </div>
+            </div>
+          </li>
+      </div>
+      <h3 class="made_by">Made with <span style="color: rgb(231, 17, 17);">♡</span> by <span style="color: rgb(7, 87, 141); background-color: rgb(207, 223, 217);">Disha Dixit</span>.</h3>
+</body>
+</html>
